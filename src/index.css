@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  /* cursor: none; */
+}
+
+button, a {
+  cursor: pointer;
+}
+
+
