@@ -23,7 +23,7 @@ export default function Landing() {
     
     <div className="relative flex flex-col items-center justify-center h-screen text-center px-4 overflow-hidden bg-gradient-to-br from-pink-100 via-pink-200 to-pink-300">
 <audio ref={audioRef} loop>
-  <source src="/src/assets/songs/song.mp3" type="audio/mp3" />
+  <source src="/Happy-Birthday-Sakhi/song.mp3" type="audio/mp3" />
 </audio>
       {/* 💖 Floating hearts background */}
       <div className="absolute inset-0 pointer-events-none">
