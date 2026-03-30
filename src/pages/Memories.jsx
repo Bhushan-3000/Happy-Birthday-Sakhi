@@ -1,19 +1,33 @@
 import Masonry from "react-masonry-css";
 import { motion } from "framer-motion";
+import img1 from "../assets/images/img1.png";
+import img2 from "../assets/images/img2.png";
+import img3 from "../assets/images/img3.png";
+import img4 from "../assets/images/img4.png";
+import img5 from "../assets/images/img5.png";
+import img6 from "../assets/images/img6.png";
+import img7 from "../assets/images/img7.png";
+import img8 from "../assets/images/img8.png";
 
 export default function Memories() {
   const media = [
-    { type: "image", src: "/src/assets/images/img1.png" },
-    { type: "image", src: "/src/assets/images/img2.png" },
-    { type: "image", src: "/src/assets/images/img3.png" },
-    { type: "image", src: "/src/assets/images/img4.png" },
-    { type: "video", src: "/src/assets/images/video1.mov" },
-    { type: "video", src: "/src/assets/images/video2.mov" },
-    { type: "image", src: "/src/assets/images/img5.png" },
-    { type: "image", src: "/src/assets/images/img6.png" },
-    { type: "image", src: "/src/assets/images/img7.png" },
-    { type: "image", src: "/src/assets/images/img8.png" },
-    // add as many as you want 🔥
+    { type: "image", src: img1 },
+    { type: "image", src: img2 },
+    { type: "image", src: img3 },
+    { type: "image", src: img4 },
+    { type: "image", src: img5 },
+    { type: "image", src: img6 },
+    { type: "image", src: img7 },
+    { type: "image", src: img8 },
+    // { type: "image", src: "/src/assets/images/img3.png" },
+    // { type: "image", src: "/src/assets/images/img4.png" },
+    // { type: "video", src: "/src/assets/images/video1.mov" },
+    // { type: "video", src: "/src/assets/images/video2.mov" },
+    // { type: "image", src: "/src/assets/images/img5.png" },
+    // { type: "image", src: "/src/assets/images/img6.png" },
+    // { type: "image", src: "/src/assets/images/img7.png" },
+    // { type: "image", src: "/src/assets/images/img8.png" },
+    
   ];
 
   const breakpoints = {
