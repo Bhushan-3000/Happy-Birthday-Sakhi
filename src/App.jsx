@@ -26,7 +26,7 @@ useEffect(() => {
   const playPop = (e) => {
     if (e.target.closest("button, a")) {
       // 🔊 Sound
-      const sound = new Audio("/pop.mp3");
+      const sound = new Audio("/Happy-Birthday-Sakhi/pop.mp3");
       sound.volume = 0.3;
       sound.play();
 
