@@ -8,6 +8,9 @@ import img5 from "../assets/images/img5.png";
 import img6 from "../assets/images/img6.png";
 import img7 from "../assets/images/img7.png";
 import img8 from "../assets/images/img8.png";
+import img9 from "../assets/images/img9.png";
+import img10 from "../assets/images/img10.png";
+import img11 from "../assets/images/img11.png";
 
 export default function Memories() {
   const media = [
@@ -19,6 +22,9 @@ export default function Memories() {
     { type: "image", src: img6 },
     { type: "image", src: img7 },
     { type: "image", src: img8 },
+    { type: "image", src: img9 },
+    { type: "image", src: img10 },
+    { type: "image", src: img11 },
     // { type: "image", src: "/src/assets/images/img3.png" },
     // { type: "image", src: "/src/assets/images/img4.png" },
     // { type: "video", src: "/src/assets/images/video1.mov" },
